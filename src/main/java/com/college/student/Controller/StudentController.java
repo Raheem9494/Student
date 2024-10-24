@@ -13,10 +13,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.college.student.Entity.Student;
 
+import lombok.extern.slf4j.Slf4j;
+@Slf4j
 @RestController
 @RequestMapping("/save")
 public class StudentController {
-
+    
 	@Autowired
 com.college.student.Service.StudentService StudentService;
 
