@@ -29,12 +29,12 @@ public class Student {
 	private Integer id;
 
 	@Column
-	private String FirstName;
+	private String firstName;
 
 	@Column
-	private String LastName;
+	private String lastName;
 
 	@Column
-	private String Gmail;
+	private String gmail;
 
 }
